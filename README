@@ -1,13 +1,6 @@
 # clog
 
-FIXME: write description
-
-## Usage
-
-FIXME: write
+Blog written in clojure - based off Vijay Kiran's excellent tutorial
 
 ## License
-
-Copyright (C) 2012 FIXME
-
-Distributed under the Eclipse Public License, the same as Clojure.
+Free, use however you want.  I'm not helping you fix anything :)
