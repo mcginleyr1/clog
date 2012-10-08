@@ -9,5 +9,6 @@
     :user "clog"
     :password "clog"})
 
+(defentity admin)
 (defentity authors)
 (defentity posts)

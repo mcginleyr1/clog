@@ -38,3 +38,8 @@
             (integer :authors [:refer :authors :id] :not-null))))
   (down [] (drop (table :posts))))
 
+(defmigration add-admin-table
+  (up [] (create clogdb
+            (table :admins (integer :id :primary-key)
+              (integer :authors [:refer :authors :id] :not-null))))
+  (down [] (drop (table :admins))))
